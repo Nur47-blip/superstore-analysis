@@ -1,0 +1,26 @@
+Graded Challenge 7
+Conceptual Problems
+
+Nama: Muhammad Nur Alamsyah
+Batch: RMT-023
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui!
+Jawaban: NoSQL (singkatan dari Not Only SQL) adalah database non-tabular. Cara penyimpanan data pada NoSQL berbeda dengan data relasional. Terdapat beberapa tipe database NoSQL yaitu document, key-value, wide-column dan graph. Schema pada NoSQL lebih fleksibel dibanding RDBMS (Relational Database Management System).
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System!
+Jawaban:
+
+NoSQL cocok digunakan saat berhadapan dengan data berukuran besar yang terus-menerus berubah (ever-changing), atau saat memerlukan model data yang fleksibel serta data yang tidak sesuai dengan kerangka database relasional. Contoh penggunaan NoSQL adalah pada sistem rekomendasi, seperti yang digunakan oleh Netflix yang menggunakan basis data graf NoSQL seperti Neo4j untuk memahami hubungan antara produk atau konten.
+
+RDBMS ideal untuk digunakan dalam struktur database relasional. Data di RDBMS harus memiliki format dan struktur yang konsisten dan dapat diprediksi. Contohnya pada situs belanja online, RDBMS untuk menyimpan detail produk, informasi pelanggan, riwayat transaksi, dan lainnya. Database tersebut membantu dalam pencarian produk, manajemen persediaan, dan pemrosesan transaksi.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut!
+Jawaban:
+
+a) MongoDB
+MongoDB adalah NoSQL platform dengan tipe database dokumen.
+Kelebihan dari MongoDB adalah performa yang cepat karena menyimpan sebagian besar datanya dalam RAM, memiliki syntax query yang sederhana, arsitektur skema yang dinamis untuk penyimpanan data yang tidak terstruktur, dan menggunakan skalabilitas horizontal sehingga lebih mudah dalam meningkatkan kapasitas penyimpanan.
+
+b) Apache Cassandra
+Apache Cassandra adalah NoSQL platform dengan tipe database wide-column store.
+Kelebihan dari Apache Cassandra adalah pendistribusian data yang mudah, dapat mengelola data yang besar, dapat menyimpan ratusan terabyte, data tanpa mengorbankan efisensi, dapat membentu menyelesaikan tugas yang rumit dengan begitu mudah, performanya yang bisa dibilang tinggi
